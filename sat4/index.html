@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page with Form</title>
+  </head>
+  <body>
+    <!-- Menubar start -->
+    <div class="menubar">
+      <img src="logo.jpg" alt="MakeEasy" />
+      <ul>
+        <li>Product</li>
+        <li>Enterprise</li>
+        <li>Use Cases</li>
+        <li>Pricing</li>
+        <li>Customers</li>
+        <li>Resources</li>
+        <li>Concierge</li>
+      </ul>
+    </div>
+    <!-- menubar end -->
+    <div class="hero">
+      <!-- hero-left start -->
+      <div class="hero-left">
+        <h1>
+          Go from Apps to <br />
+          Operating System
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veniam
+          perferendis perspiciatis magnam facilis minus. Nobis eius dicta
+          voluptas?
+        </p>
+        <iframe
+          width="200"
+          height="200"
+          src="https://www.youtube.com/embed/D8vOMbnHnzM?si=qkzvy2zuFIaOxDSZ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <!-- hero-left end -->
+      <div class="hero-right">
+        <h3>30 days free train. No credit card required</h3>
+        <form>
+          <input type="text" placeholder="Full Name" /> <br />
+          <br />
+          <input type="text" placeholder="Company Name" /> <br />
+          <br />
+          <input type="number" placeholder="Number of Employees" /> <br />
+          <br />
+          <input type="number" placeholder="Phone Number" required/> <br />
+          <br />
+          <input type="email" placeholder="Email Address" required/> <br />
+          <br />
+          <input type="password" placeholder="Password" required/> <br />
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A earum
+            eaque fugit!
+          </p>
+          <br />
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p> <br> <br>
+          <select>
+            <option>KTM</option>
+            <option>Bagmati</option>
+            <option>Baghmati</option>
+            <option>Gandaki</option>
+            <option>Province 1</option>
+          </select> <br> <br>
+          <button>Get Started Now</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+    body{
+        background-image: url(background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .menubar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+  }
+  .hero{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+</style>
